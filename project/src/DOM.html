@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game catalogue</title>
+</head>
+<body>
+<p id="demo"></p>
+
+<script>
+    let xhttp=new XMLHttpRequest();
+    xhttp.onreadystatechange=function (){
+        if(this.readyState===4 && this.status===200){
+            myFunction(this);
+        }
+    };
+    xhttp.open("GET","GameCatalogue3.xml",true);
+    xhttp.send();
+
+    function myFunction(xml) {
+        var xmlDoc = xml.responseXML;
+        var x = xmlDoc.getElementsByTagName("Game");
+        var p = xmlDoc.getElementsByTagName("Price");
+        var txt = "";
+        var txt2="";
+        var txt3="";
+
+        for (let z = 0; z < x.length; z++){
+            txt2+=xmlDoc.getElementsByTagName("platform_type")[z].childNodes[0].nodeValue +"; ";
+        }
+        for (let m = 1; m < x.length; m++){
+            txt3+=xmlDoc.getElementsByTagName("genre_type")[m].childNodes[0].nodeValue+ "; ";
+        }
+
+        for (let i = 0; i < x.length; i++) {
+
+                txt += " <b>Име на игра: </b>" + xmlDoc.getElementsByTagName("Name")[i].childNodes[0].nodeValue + "<br><br>" +
+                    "<b>Платформи:</b>"+ txt2+ "<br><br>"+
+                    "<b>Информация:</b>" + xmlDoc.getElementsByTagName("Information")[i].childNodes[0].nodeValue + "<br><br>" +
+                    "<b>Жанр:</b>" + txt3+ "<br><br>" +
+                    "<b>Цена:</b>" + xmlDoc.getElementsByTagName("Price")[i].childNodes[0].nodeValue +" "+ p[i].getAttribute('currency')+ "<br><br>" +
+                    "<b>Дата на издаване:</b>" + xmlDoc.getElementsByTagName("ReleaseDate")[i].childNodes[0].nodeValue + "<br><br>" +
+                    "<b>Линк за закупуване:</b>" + xmlDoc.getElementsByTagName("BuyLink")[i].childNodes[0].nodeValue + "<br><br><br><br>"
+        }
+        var y= xmlDoc.getElementsByTagName("Publisher");
+
+        for(let i=0; i<y.length; i++){
+            txt+=" <b>Име на студио: </b>" + xmlDoc.getElementsByTagName("name")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Година на откриване:</b>" + xmlDoc.getElementsByTagName("founded")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Адрес:</b>" + xmlDoc.getElementsByTagName("street")[i].childNodes[0].nodeValue + " "+ xmlDoc.getElementsByTagName("city")[i].childNodes[0].nodeValue+" "+ xmlDoc.getElementsByTagName("zip_code")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Брой служители:</b>" + xmlDoc.getElementsByTagName("numberOfEmployees")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Президент:</b>" + xmlDoc.getElementsByTagName("president")[i].childNodes[0].nodeValue + "<br><br>"+
+                "<b>Сайт на студиото:</b>" + xmlDoc.getElementsByTagName("publisherWebSiteURL")[i].childNodes[0].nodeValue + "<br><br><br><br>"
+        }
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>

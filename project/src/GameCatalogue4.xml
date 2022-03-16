@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XmlToHTML2.xsl"?>
+<?xml-stylesheet type="text/xsl" href="XmlToText1.xsl"?>
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
+<catalogue>
+    <Game publisher="Ubisoft">
+        <Name>Assassin's Creed Valhalla</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>PS5</platform_type>
+            <platform_type>Xbox One</platform_type>
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>Assassin's Creed Valhalla е екшън ролева видео игра, разработена от Ubisoft Montreal и публикувана от Ubisoft.
+                     Това е дванадесетата основна част и двадесет и второто издание от серията Assassin's Creed и наследник на Assassin's Creed Odyssey от 2018 г. </Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>Приключенски</genre_type>
+            <genre_type>Ролева</genre_type>
+        </Genre>
+        <Price currency="US долари">49.79</Price>
+        <ReleaseDate>10-10-2020</ReleaseDate>
+        <BuyLink>https://store.ubi.com/us/assassins-creed-valhalla/5e849c6c5cdf9a21c0b4e731.html?lang=en_US</BuyLink>
+        <CoverImageLink alt="Assassin's Creed Valhalla Cover" src="AC_pic"/>
+    </Game>
+
+    <Game publisher="SCS Software">
+        <Name>Euro Truck Simulator 2</Name>
+        <Platforms>
+            <platform_type>PC</platform_type>
+        </Platforms>
+        <Information>Играта е директно продължение на играта Euro Truck Simulator от 2008 г. и е втората видео игра от поредицата Truck Simulator.
+                     Основната идея на играта е, че играчът може да кара един от избраните съчленени камиони през цяла Европа, да взима товари от различни места и да ги доставя. </Information>
+        <Genre>
+            <genre_type>Симулатор</genre_type>
+            <genre_type>Мълтиплейър</genre_type>
+        </Genre>
+        <Price currency="евро">19.99</Price>
+        <ReleaseDate>19-10-2012</ReleaseDate>
+        <BuyLink>https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/?l=bulgarian</BuyLink>
+        <CoverImageLink alt="Euro Truck Simulator 2 Cover" src="euro_truck"/>
+    </Game>
+
+    <Publisher>
+        <name>Ubisoft</name>
+        <founded>1986</founded>
+        <address>
+            <street>"28 Рю Арманд Карел"</street>
+            <country name="Франция">
+                <city>Монтревил</city>
+            </country>
+            <zip_code>93100</zip_code>
+        </address>
+        <numberOfEmployees>18045</numberOfEmployees>
+        <president>Ивес Гуйлемот</president>
+        <publisherWebSiteURL>https://www.ubisoft.com/</publisherWebSiteURL>
+    </Publisher>
+
+    <Publisher>
+        <name>SCS Software</name>
+        <founded>1997</founded>
+        <address>
+            <street>"Жихлавска"</street>
+            <country name="Чехия">
+                <city>Прага</city>
+            </country>
+            <zip_code>140 00</zip_code>
+        </address>
+        <numberOfEmployees>170</numberOfEmployees>
+        <president>Павел Себор</president>
+        <publisherWebSiteURL>https://scssoft.com/</publisherWebSiteURL>
+    </Publisher>
+</catalogue>

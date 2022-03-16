@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="XmlToHTML4.xsl"?>
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
+<catalogue >
+
+    <Game publisher="EA studios">
+        <Name>FIFA 21</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>
+            Време е за стартиране. Създайте своя отбор и спечелете пътя си до върха на дивизията във FIFA 21. Водете своя отбор до победа в режим на кампания или се състезавайте с приятели в FIFA Ultimate Team. Съберете се на улицата или на стадиона и се насладете на по-големи победи с приятелите си. FIFA 21 ще предложи двойни права, така че можете да получите безплатно надграждане до ретроспективната конзола от следващо поколение  </Information>
+        <Genre>
+            <genre_type>Спорт</genre_type>
+        </Genre>
+        <Price currency="евро">29.59</Price>
+        <ReleaseDate>5-10-2020</ReleaseDate>
+        <BuyLink>https://store.steampowered.com/app/1313860/EA_SPORTS_FIFA_21/</BuyLink>
+        <CoverImageLink alt="FIFA 21 Cover" src="fifa21"/>
+    </Game>
+
+    <Game publisher="Epic Games">
+        <Name>Fortnite: Battle Royale</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>Fortnite Battle Royale е БЕЗПЛАТНИЯ PvP режим от 100 играчи във Fortnite. Една гигантска карта. Боен автобус. Умения за изграждане на Fortnite и разрушима среда, съчетана с интензивна PvP битка. Печели последният, който остане.</Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>FPS</genre_type>
+            <genre_type>Мултиплейър</genre_type>
+        </Genre>
+        <Price>Free</Price>
+        <ReleaseDate>21-07-2017</ReleaseDate>
+        <BuyLink>https://www.epicgames.com/fortnite/en-US/buy-now/battle-royale</BuyLink>
+        <CoverImageLink alt="Fortnite Cover" src="fortnite"/>
+    </Game>
+
+    <Publisher>
+        <name>Epic Games</name>
+        <founded>1991</founded>
+        <address>
+            <street>"620 булевард Кросроудс "</street>
+            <country name="САЩ">
+                <city>Кари</city>
+            </country>
+            <zip_code>NC 27518</zip_code>
+        </address>
+        <numberOfEmployees>700</numberOfEmployees>
+        <president>Тим Суинии</president>
+        <publisherWebSiteURL>https://www.epicgames.com/</publisherWebSiteURL>
+    </Publisher>
+
+    <Publisher>
+        <name>EA Studios</name>
+        <founded>1982</founded>
+        <address>
+            <street>"Редууд Шорс Паркуей"</street>
+            <country name="САЩ">
+                <city>Редууд</city>
+            </country>
+            <zip_code>CA 94065</zip_code>
+        </address>
+        <numberOfEmployees>9300</numberOfEmployees>
+        <president>Трип Хоукинс</president>
+        <publisherWebSiteURL>https://www.ea.com/ea-studios</publisherWebSiteURL>
+    </Publisher>
+
+
+</catalogue>
+
+

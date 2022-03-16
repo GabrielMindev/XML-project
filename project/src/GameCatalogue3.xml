@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XmlToXml2.xsl"?>
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
+<catalogue>
+    <Game publisher="Microsoft Studios">
+        <Name>Forza Motorsport 7</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+        </Platforms>
+        <Information>Forza Motorsport 7 е състезателна видео игра с над 700 автомобила - включително нови автомобили Forza Edition, повечето от които са донесени от Forza Horizon 3 и повече от 200 различни конфигурации, за да се състезават на 32 места при старта, включително всички от Forza Motorsport 6; измислена улична верига в Дубай е една от новите писти и няколко писти, които се връщат от Forza Motorsport 4, включително Maple Valley Raceway, Mugello Circuit и Suzuka Circuit. Две функции, които са нови за заглавието на Motorsport, включват динамично време (по-рано се вижда в заглавията на Horizon) и персонализиращи се драйвери.</Information>
+        <Genre>
+            <genre_type>Състезания</genre_type>
+        </Genre>
+        <Price currency="лева">57.40</Price>
+        <ReleaseDate>03-10-2017</ReleaseDate>
+        <BuyLink>https://www.microsoft.com/bg-bg/p/forza-motorsport-7-ultimate-edition/9nv34nlclg81?activetab=pivot:overviewtab</BuyLink>
+        <CoverImageLink alt="Forza Horizon 4 Cover" src="forza_pic"/>
+    </Game>
+
+    <Game publisher="EA Studios">
+        <Name>Need For Speed Heat</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+        </Platforms>
+        <Information>
+            Бързайте през деня и рискувайте всичко през нощта в Need for Speed Heat Deluxe Edition, състезателна игра, в която линиите на закона избледняват, когато слънцето започне да залязва. </Information>
+        <Genre>
+            <genre_type>Състезания</genre_type>
+        </Genre>
+        <Price currency="евро">20.99</Price>
+        <ReleaseDate>08-11-2019</ReleaseDate>
+        <BuyLink>https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/</BuyLink>
+        <CoverImageLink alt="Need For Speed Heat Cover" src="nfs_pic"/>
+    </Game>
+
+
+    <Publisher>
+        <name>Microsoft Studios</name>
+        <founded>2002</founded>
+        <address>
+            <street>"148th Авеню "</street>
+            <country name="САЩ">
+                <city>Редмонд</city>
+            </country>
+            <zip_code>WA 98052</zip_code>
+        </address>
+        <numberOfEmployees>4000</numberOfEmployees>
+        <president>Фил Спенсър</president>
+        <publisherWebSiteURL>https://www.microsoftstudios.com/</publisherWebSiteURL>
+    </Publisher>
+
+    <Publisher>
+        <name>EA Studios</name>
+        <founded>1982</founded>
+        <address>
+            <street>"Редууд Шорс Паркуей"</street>
+            <country name="САЩ">
+                <city>Редууд</city>
+            </country>
+            <zip_code>CA 94065</zip_code>
+        </address>
+        <numberOfEmployees>9300</numberOfEmployees>
+        <president>Трип Хоукинс</president>
+        <publisherWebSiteURL>https://www.ea.com/ea-studios</publisherWebSiteURL>
+    </Publisher>
+
+</catalogue>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XmlToText2.xsl"?>
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
+<catalogue>
+    <Game publisher="CD Projekt">
+        <Name>Cyberpunk 2077</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+            <platform_type>Xbox Series X</platform_type>
+            <platform_type>Xbox Series S</platform_type>
+            <platform_type>PS4</platform_type>
+            <platform_type>PS5</platform_type>
+        </Platforms>
+        <Information>Cyberpunk 2077 е ролева игра за 2020 г., разработена и публикувана от CD Projekt. Историята се развива в Night City, отворен свят, разположен във вселената на Cyberpunk. Играчите приемат перспективата от първо лице на персонализиран наемник, известен като V, който може да придобие умения за хакване и машини с опции за меле и дистанционна битка. </Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>Ролева</genre_type>
+        </Genre>
+        <Price currency="евро">59.99</Price>
+        <ReleaseDate>10-12-2020</ReleaseDate>
+        <BuyLink>https://store.steampowered.com/agecheck/app/1091500/</BuyLink>
+        <CoverImageLink alt="Cyberpunk 2077 Cover" src="Cyberpunk2077_pic"/>
+    </Game>
+
+    <Game publisher="Santa Monica">
+        <Name>God of War 4</Name>
+        <Platforms >
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>God of War е приключенски-екшън от трето лице. Той разполага със свободна камера през рамо, отклонение от предишните части на играта, които включваха фиксирана кинематографична камера (с изключение на двуизмерния страничен скролер Betrayal). Кинематографично, играта се представя в непрекъснат кадър, без разрязване на камерата или зареждане на екрани </Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>Приключенски</genre_type>
+        </Genre>
+        <Price currency="лева">59.90</Price>
+        <ReleaseDate>20-04-2018</ReleaseDate>
+        <BuyLink>https://www.playstation.com/bg-bg/games/god-of-war/</BuyLink>
+        <CoverImageLink alt="God of War 4 Cover" src="GodofWar4_pic"/>
+    </Game>
+
+    <Publisher>
+        <name>CD Projekt</name>
+        <founded>1994</founded>
+        <address>
+            <street>"Жагиеллонска 74"</street>
+            <country name="Полша">
+                <city>Варшава</city>
+            </country>
+            <zip_code>03-301</zip_code>
+        </address>
+        <numberOfEmployees>1111</numberOfEmployees>
+        <president>Марцин Туински</president>
+        <publisherWebSiteURL>https://www.cdprojekt.com/pl/</publisherWebSiteURL>
+    </Publisher>
+
+    <Publisher>
+        <name>Santa Monica</name>
+        <founded>1999</founded>
+        <address>
+            <street>"булевард Джеферсън"</street>
+            <country name="САЩ">
+                <city>Лос Анджълис</city>
+            </country>
+            <zip_code>CA 90094</zip_code>
+        </address>
+        <numberOfEmployees>200</numberOfEmployees>
+        <president>Алан Бекер</president>
+        <publisherWebSiteURL>https://sms.playstation.com/</publisherWebSiteURL>
+    </Publisher>
+</catalogue>

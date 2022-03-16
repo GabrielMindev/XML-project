@@ -1,0 +1,35 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT catalogue (Game+,Publisher+)>
+<!ELEMENT Game (Name,Platforms,Information,Genre,Price,ReleaseDate,BuyLink,CoverImageLink)>
+<!ATTLIST Game
+    publisher CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Platforms (platform_type)+>
+<!ELEMENT platform_type (#PCDATA)>
+<!ELEMENT Information (#PCDATA)>
+<!ELEMENT Genre (genre_type)+>
+<!ELEMENT genre_type (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Price
+    currency CDATA #IMPLIED>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT BuyLink (#PCDATA)>
+<!ELEMENT CoverImageLink EMPTY>
+<!ATTLIST CoverImageLink
+    alt CDATA #REQUIRED
+    src CDATA #REQUIRED>
+<!ELEMENT Publisher (name,founded,address?,numberOfEmployees,president,publisherWebSiteURL)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT founded (#PCDATA)>
+<!ELEMENT address (street,country,zip_code)>
+<!ELEMENT numberOfEmployees (#PCDATA)>
+<!ELEMENT president (#PCDATA)>
+<!ELEMENT publisherWebSiteURL (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT country (city)>
+<!ATTLIST country
+    name  CDATA #REQUIRED>
+<!ELEMENT zip_code (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+

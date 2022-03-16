@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XmlToXml1.xsl"?>
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
+
+<catalogue>
+    <Game publisher="Rockstar Games">
+        <Name>Grand Theft Auto V</Name>
+        <Platforms >
+            <platform_type>PC</platform_type>
+            <platform_type>Xbox One</platform_type>
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>
+            Най-големият, най-динамичен и най-разнообразен отворен свят, създаван някога, Grand Theft Auto V съчетава разказването на истории и геймплея по нови начини, тъй като играчите многократно скачат и излизат от живота на тримата водещи герои на играта, играейки всички страни на преплетената история на играта. Всички класически отличителни белези на новаторската поредица се връщат, включително невероятно внимание към детайла и тъмно хумористичното възприемане на Grand Theft Auto от модерната култура, заедно с чисто нов и амбициозен подход за мултиплейър с отворен свят. </Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>Приключенски</genre_type>
+            <genre_type>Мултиплейър</genre_type>
+            <genre_type>Ролева</genre_type>
+        </Genre>
+        <Price currency="лева">50</Price>
+        <ReleaseDate>17-09-2013</ReleaseDate>
+        <BuyLink>https://www.rockstargames.com/V/order</BuyLink>
+        <CoverImageLink alt="GTA V Cover" src ="gtaV_pic"/>
+    </Game>
+
+    <Game publisher="Rockstar Games">
+        <Name>Red Dead Redemption 2</Name>
+        <Platforms >
+            <platform_type>Xbox One</platform_type>
+            <platform_type>PS4</platform_type>
+        </Platforms>
+        <Information>Америка, 1899 г. Краят на ерата на Дивия Запад започна. След като обир се обърква зле в западния град Блекуотър, Артър Морган и бандата на Ван дер Линде са принудени да избягат. С федерални агенти и най-добрите ловци на глави в страната, които се натрупват по петите, бандата трябва да ограби, открадне и да се пребори през суровата сърцевина на Америка, за да оцелее. Тъй като задълбочаващите се вътрешни разделения заплашват да разкъсат бандата, Артър трябва да направи избор между собствените си идеали и лоялността към бандата, която го е отгледала. </Information>
+        <Genre>
+            <genre_type>Екшън</genre_type>
+            <genre_type>Приключенски</genre_type>
+            <genre_type>Ролева</genre_type>
+        </Genre>
+        <Price currency="US долари">59.99</Price>
+        <ReleaseDate>26-10-2018</ReleaseDate>
+        <BuyLink>https://www.rockstargames.com/reddeadredemption2/order</BuyLink>
+
+        <CoverImageLink alt="RDR2 Cover" src="rdr2_pic"/>
+    </Game>
+
+    <Publisher>
+        <name>Rockstar Games</name>
+        <founded>1998</founded>
+        <address>
+            <street>"622 Броудуей"</street>
+            <country name="САЩ">
+                <city>Ню Йорк</city>
+            </country>
+            <zip_code>NY 10012</zip_code>
+        </address>
+        <numberOfEmployees>2001</numberOfEmployees>
+        <president>Сам Хаусър</president>
+        <publisherWebSiteURL>https://www.rockstargames.com/</publisherWebSiteURL>
+    </Publisher>
+
+</catalogue>
